@@ -1,0 +1,32 @@
+---
+title: "Test document"
+author: "Olivier Bonte"
+lang: en # set to 'nl' for Dutch
+date: today
+format:
+  html:
+    code-overflow: wrap
+    toc: true
+    number-sections: true
+  pdf:
+      documentclass: scrartcl
+      include-in-header: preamble.tex
+      number-sections: true
+      toc: true
+      toc-depth: 4
+execute: 
+  cache: false
+jupyter: python3
+---
+
+# Test
+
+This is a test document.
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+plt.plot(x, y)
+```

@@ -1,0 +1,10 @@
+name: quarto_template_simple
+channels: 
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - jupyterlab=4.4
+  - matplotlib=3.10
+  - numpy=2.3
+  - jupyter-cache=1.0
