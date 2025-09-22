@@ -29,8 +29,8 @@ quarto install tinytex
 There are several ways to use Quarto, but here [VS Code](https://code.visualstudio.com/Download) is used as interface. With VS Code installed for your OS, perform the following:
 
 1. Under extensions, install the [Quarto extension](https://marketplace.visualstudio.com/items?itemName=quarto.quarto).
-2. Follow the instructions [here](https://code.visualstudio.com/docs/python/environments#_select-and-activate-an-environment) and select `la_interations_quarto` as your Python interpreter for VS Code.
-3. To have a nice preview of your `.qmd` quarto document, use `Ctrl + Shift + k`. After modifying the `.qmd` document, use the same key combination to render the preview again. Alternatively, run `quarto preview --no-browser` in the CLI (this should normally eliminate the need to use `Ctrl + Shift + k` repeatedly).
+2. Follow the instructions [here](https://code.visualstudio.com/docs/python/environments#_select-and-activate-an-environment) and select `quarto_template_simple` as your Python interpreter for VS Code.
+3. To have a nice preview of your `.qmd` quarto document, use `Ctrl + Shift + k`. After modifying the `.qmd` document, use the same key combination to render the preview again. Alternatively, run `quarto preview test_file.qmd--no-browser` in the CLI (this should normally eliminate the need to use `Ctrl + Shift + k` repeatedly).
 4. To render the entire set of documents as one `.pdf`, type `quarto render test_file.qmd` in the command line. The document should be rendered to both a PDF and HTML file. 
 
 For more details on how to use Quarto with VS Code, see the [Quarto documentation](https://quarto.org/docs/get-started/hello/vscode.html).
