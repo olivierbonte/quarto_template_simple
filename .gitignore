@@ -1,6 +1,6 @@
 # quarto specific ignores
-.pdf
-.html
+*.pdf
+*.html
 test_file_files/
 
 # Byte-compiled / optimized / DLL files
